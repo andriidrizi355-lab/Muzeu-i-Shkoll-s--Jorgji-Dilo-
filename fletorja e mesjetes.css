@@ -1,0 +1,27 @@
+.revista-faqet {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 25px;
+      margin-top: 30px;
+    }
+
+    .revista-faqet img {
+      width: 80%;
+      max-width: 700px;
+      border-radius: 10px;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+    }
+
+    a.kthehu {
+      display: inline-block;
+      margin-top: 20px;
+      text-decoration: none;
+      color: white;  background: linear-gradient(135deg, #ff6200, #ffc67c);
+      padding: 10px 20px;
+      border-radius: 8px;
+    }
+
+    a.kthehu:hover {  
+        background: linear-gradient(135deg, #ff6200, #ffc67c);
+    }
